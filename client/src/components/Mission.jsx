@@ -9,7 +9,7 @@ const Mission = () => {
             OUR <span style={{ color: "#f2b400" }}>STORY</span>
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Tiles Zone is located in Morbi, Gujarat, India. We are specializing
+            Tiles Zone is located in Somnath, Gujarat, India. We are specializing
             in manufacturing a wide range of porcelain tiles, slabs, and
             sanitary wares.
             <span className="non-mobile-text">
