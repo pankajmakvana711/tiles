@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Raleway:wght@600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #2c2c2c;
+}
+
+h1 {
+  font-family: "Raleway";
+}
+
+.black-gradient {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.size-list > li > a:hover {
+  color: #f2b400;
+}
+
+footer {
+  background-color: #2c2c2c;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  left: 20px;
+  background-color: #f2b400;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #070707;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.non-mobile-text {
+  display: none; /* Hide the text by default */
+}
+
+@media only screen and (min-width: 768px) {
+  /* Display the text for non-mobile devices with a minimum width of 768px */
+  .non-mobile-text {
+    display: inline; /* Show the text */
+  }
+}
+
+@keyframes blinking {
+  0% {
+    color: grey;
+  }
+  50% {
+    color: #f2b400;
+  }
+  100% {
+    color: grey;
+  }
+}
+
+.blinking-text {
+  animation: blinking 2s infinite;
+}
+
+.logo-image {
+  width: 6rem; /* Adjust the value as needed */
+}
+
+.flag-image {
+  transition: transform 0.3s ease;
+}
+
+.flag-image:hover {
+  transform: scale(1.1);
+}
