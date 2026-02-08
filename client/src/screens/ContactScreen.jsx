@@ -70,8 +70,11 @@ const ContactScreen = () => {
               height="100%"
               title="map"
               className="absolute inset-0"
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=22.8053852,70.8185317+(Blink%20Impex)&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-              style={{ filter: "grayscale(1), contrast(1.2) opacity(0.16)" }}
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.271075460809!2d70.8523098!3d20.820757399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be2e11a17b2b677%3A0x1a161e48fe749a07!2sTILES%20ZONE!5e0!3m2!1sen!2sin!4v1770536610425!5m2!1sen!2sin"
+              style={{ border: 0, filter: "grayscale(0) contrast(1.2) opacity(1.70)" }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
             ></iframe>
             <div className="bg-gray-900 absolute flex flex-wrap py-6 rounded shadow-md items-center justify-center">
               <div className="lg:w-1/2 px-6">
@@ -79,7 +82,7 @@ const ContactScreen = () => {
                   {t("ADDRESS")}
                 </h2>
                 <p className="mt-1">
-                  SHOP NO-10, Chitrakoot 4 GIDC B/H sanala road, Morbi 363641
+                  Opp. Shree Hari Trailer, Kodinar Una Highway, Dolasa, Kodinar 362720
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -87,15 +90,15 @@ const ContactScreen = () => {
                   {t("EMAIL")}
                 </h2>
                 <a className="text-yellow-800 leading-relaxed">
-                  export@blinkimpex.com
+                  export@tileszone.com
                   <br />
-                  blinkimpex@gmail.com
+                  tileszone@gmail.com
                 </a>
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                   {t("PHONE")}
                 </h2>
-                <p className="leading-relaxed">+91 63539 43201</p>
-                <p className="leading-relaxed">+91 88495 57832</p>
+                <p className="leading-relaxed">+91 81400 45379</p>
+                <p className="leading-relaxed">+91 92281 11444</p>
               </div>
             </div>
           </div>
